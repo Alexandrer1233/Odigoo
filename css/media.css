@@ -1,0 +1,211 @@
+@media screen and (max-width: 1400px) {
+    .intro {
+        padding-top: 190px;
+    }
+    .benefits__title {
+        font-size: 33px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .intro {
+        padding-top: 190px;
+    }
+    .search-form__field {
+        margin-bottom: 25px;
+    }
+    .search-form__field {
+        margin-bottom: 30px;
+    }
+    .intro__subtitle {
+        margin-bottom: 15px;
+    }
+    .benefits__title {
+        font-size: 30px;
+        padding-top: 34px;
+        padding-bottom: 15px;
+    }
+    .benefints__cards {
+        padding: 0 15px;
+        grid-column-gap: 25px;
+    }
+    .tours__tour {
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
+    .tour__info {
+        padding-left: 0;
+    }
+    .tour__title {
+        margin-bottom: 25px;
+    }
+    .tour__desc {
+        margin-bottom: 12px;
+    }
+    .top__cards {
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+    .top__card {
+        grid-column: span 3;
+    }
+    .footer__logo {
+        padding-left: 35px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .header__burger {
+        display: block;
+    }
+    .header.open {
+        background-color: #030303;
+        z-index: 9999;
+    }
+    .header.open .header__container {
+        padding: 30px;
+    }
+    .header__nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 10;
+        padding: 75px;
+        transform: translateX(100%);
+        transition: .2s all linear
+    }
+    .header__nav.active{
+        transform: translateX(0);
+    }
+    .header__item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .header__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .header__link, .header__link--open {
+        font-size: 45px;
+        line-height: 48px;
+    }
+    .header__nav-close {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
+    }
+    .header__nav-close-line {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+    }
+    .header__nav-close-line:first-child {
+        transform: translateY(-50%) rotate(45deg);
+        
+    }
+    .header__nav-close-line:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+    }
+    .intro {
+        padding-top: 150px;
+    }
+    .intro__title {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 2px;
+    }
+    .intro__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .search-form__field {
+        margin-right: 0;
+        width: 100%;
+    }
+    .benefints__card {
+        grid-column: span 3;
+    }
+    .benefits__title-card {
+        margin-bottom: 10px;
+    }
+    .benefits__subtitle-card {
+        margin-bottom: 20px;
+    }
+    .benefits__title {
+        display: flex;
+        align-items: center;
+        padding-left: 55px;
+        font-size: 30px;
+        padding-top: 25px;
+        padding-bottom: 18px;
+    }
+    .benefints__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .benefints__card-more {
+        margin-bottom: 35px;
+    }
+    .benefits__wrap {
+        box-shadow: none;
+    }
+    .tours__tour {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .search-form__submit {
+        width: 100%;
+    }
+    .footer__nav {
+        width: 100%;
+    }
+    .footer__logo {
+        padding-left: 10px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    .intro {
+        padding-top: 110px;
+    }
+    .search-form__field {
+        margin-bottom: 10px;
+    }
+    .intro__title {
+        font-size: 30px;
+        line-height: 43px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-height: 586px) {
+    .intro {
+        padding-top: 110px;
+    }
+    .search-form__field {
+        margin-bottom: 8px;
+    }
+    .intro__subtitle {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    .intro__title {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 5px;
+    }
+}
